@@ -82,12 +82,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="SampleDashboard.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="SampleDashboard.Designer.cs">
-      <DependentUpon>SampleDashboard.cs</DependentUpon>
-    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -115,13 +109,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SampleDashboard.resx">
-      <DependentUpon>SampleDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="Data\Sales.xlsx">
