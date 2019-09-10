@@ -22,7 +22,7 @@
                                     AllowGlyphTheming="True"
                                     Content="Select File to Load Data"
                                     ItemClick="BarButtonItem_ItemClick"
-                                    Glyph="{dx:SvgImageSource Uri=/DevExpress.Images.v18.1;component/SvgImages/Actions/Open.svg}"
+                                    Glyph="{dx:SvgImageSource Uri=/DevExpress.Images.v18.2;component/SvgImages/Actions/Open.svg}"
                                     ToolTip="Select Excel file to load" BarItemDisplayMode="ContentAndGlyph" />
                             </dxb:InsertAction.Element>
                         </dxb:InsertAction>
