@@ -3,6 +3,7 @@ using DevExpress.DataAccess.Excel;
 using DevExpress.Xpf.Core;
 using DevExpress.Xpf.Dialogs;
 
+
 namespace WpfDashboardLoadedExample
 {
     /// <summary>
@@ -21,7 +22,7 @@ namespace WpfDashboardLoadedExample
         private void BarButtonItem_ItemClick(object sender, DevExpress.Xpf.Bars.ItemClickEventArgs e)
         {
             DXOpenFileDialog fileDialog = new DXOpenFileDialog();
-            fileDialog.InitialDirectory = @"C:\DATA";
+            fileDialog.InitialDirectory = System.Environment.CurrentDirectory + @"\Data";
             fileDialog.Filter = "Excel File | *.xlsx";
             fileDialog.Title = "Select XLSX File";
             if (fileDialog.ShowDialog() == true)
